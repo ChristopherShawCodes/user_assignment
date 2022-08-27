@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(105deg, rgba(240, 239, 244, 1), rgba(115, 202, 150, 1))
+}
+
+.background{
+    height: 860px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.index{
+    text-align: center;
+}
+
+#index:hover{
+    color: white;
+}
+
+/* This is the start of the create.html */
+.create{
+    display: flex;
+}
+
+#create{
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 2px solid white;
+    padding-right: 32px;
+    padding-top: 5px;
+}
+
+#input,#label{
+    font-size: 20px;
+}
+
+#clear{
+    text-align: center;
+    font-size: 14px;
+}
+
+#clear:hover{
+    color: white;
+}
+
+/* This is the start of /display or read(all).html */
+
+
+p{
+    font-size: 48px;
+    text-align: center;
+    color: gray;
+}
+
+#table{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 3px solid white;
+}
+
+.table-s{
+    height: 1200px;
+}
+
+#add{
+    margin-left: 460px;
+}
