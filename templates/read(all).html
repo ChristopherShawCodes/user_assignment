@@ -23,13 +23,14 @@
             </thead>
             <tbody>
                 {% for one_user in users %}
+                <tr>
                 <td class="table-success">{{ one_user.id }}</td>
                 <td class="table-success">{{ one_user.first_name }}{{ one_user.last_name }}</td>
                 <td class="table-success" >{{ one_user.email }}</td>
                 <td class="table-success">{{ one_user.created_at }}</td>
                 <td class="table-success">{{ one_user.updated_at }}</td>
-                </tr>
                 {% endfor %}
+                </tr>
             </tbody>
         </table>
             <a href="/create" id="add">Add a New User</a>

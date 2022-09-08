@@ -6,7 +6,7 @@ class User:
     #class method to save our friend to the database
     @classmethod
     def save(cls,data):
-        query = "INSERT INTO users ( first_name, last_name, email , created_at, updated_at)VALUES (%(first_name)s,%(last_name)s,%(email)s,NOW(),NOW() );"
+        query = "INSERT INTO users (first_name, last_name, email , created_at, updated_at)VALUES (%(first_name)s,%(last_name)s,%(email)s,NOW(),NOW() );"
         #data is a dictionary that will be passed into the save method from server.py
         #this return statement would return an integer of the id we just created in the database
         return connectToMySQL('users_schema').query_db(query,data)
